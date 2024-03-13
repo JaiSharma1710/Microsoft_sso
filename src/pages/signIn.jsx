@@ -6,7 +6,7 @@ const SignIn = ({ handleLoginPopup, handleLoginRedirect }) => {
     <UnauthenticatedTemplate>
       <img
         src="https://cdn.universityliving.com/files/1710331469782microsoftlogo.png"
-        style={{ width: "10rem", height: "auto" }}
+        style={{ width: "20rem", height: "auto" }}
       />
       <p>Welcome To Microsoft Login</p>
       <div style={{ display: "flex", gap: "1rem" }}>
