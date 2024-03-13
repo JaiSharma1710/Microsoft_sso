@@ -23,6 +23,6 @@ maslInstance.addEventCallback((event) => {
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App instance={maslInstance} />
+    <App maslInstance={maslInstance} />
   </React.StrictMode>
 );
